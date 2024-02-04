@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height:50px;
+    background-color:white;
+    color: balck;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+}
+.nav-logo{
+    margin-left: 20px;
+    height:25px;
+    width:110px;
+    background-image: url(images/microsoft\ logo.png);
+    background-size: contain;
+}
+.nav-ops{
+    padding-top: 5px;
+    width: 60%;
+    justify-content: center;
+}
+.nav-ops p{
+    display:inline;
+    margin-left:10px;
+}
+.nav-right{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.nav-mic{
+    display: flex;
+    margin-right: 10px;
+}
+.fa-angle-down{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+.ic{
+    margin-right: 20px;
+}
+/**hero**/
+.hero{
+    background-image: url(images/hero1.png);
+    width:98%;
+    height: 465px;
+    margin-left: 11px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.hero p{
+    padding-bottom: 20px;
+}
+.hero-text{
+    width:400px;
+    margin-right: 75px;
+    margin-top:50px;
+}
+.hero button{
+    background-color: #0067b8;
+    padding:10px 12px;
+    color:white;
+    font-size: 16px;
+    height:40px;
+    width: 110px;
+    border: none;
+    border-radius: 0.25rem;
+}
+.panel{
+    margin-top: 30px;
+    padding: 40px;
+    height:105px;
+    width:80%;
+    align-self: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.panel-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul p{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp{
+    margin-top: 20px;
+    color:blue;
+}
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+.box{
+    height:360px;
+    width:255px;
+    margin:30px;
+}
+.box-img{
+    height:130px;
+    width:230px;
+}
+.box-text{
+    font-size: 0.9rem;
+    height:105px;
+    width:230px;
+}
+.box-text h2{
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.enter{
+    padding-top:27px;
+    color:blue;
+    font-size: 16px;;
+}
+.hero2{
+    color:white;
+    background-image: url(images/hero2.jpeg);
+    width:89%;
+    height: 515px;
+    margin-top:12px;
+    margin-left: 60px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.hero2 p{
+    padding-bottom: 20px;
+}
+.hero2-text{
+    width:400px;
+    margin-left: 75px;
+    margin-top:50px;
+}
+.hero2 button{
+    background-color: #0067b8;
+    padding:10px 12px;
+    color:white;
+    font-size: 16px;
+    height:40px;
+    width: 190px;
+    border: none;
+    border-radius: 0.25rem;
+}
+.business{
+    margin-top:75px;
+    height:26px;
+    margin-left:60px;
+    font-weight: 700;
+}
+
+.shop2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+.box2{
+    height:320px;
+    width:255px;
+    margin:10px;
+}
+.box-text h3{
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.follow{
+    margin-left: 60px;
+    height:32px;
+    display: flex;
+}
+.f{
+    margin-right:20px;
+}
+.fons i{
+    margin-right:20px;
+}
+.back{
+    height:64;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.back button{
+    height:40px;
+    margin-right: 90px;
+    background-color: #f4f4f4;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-bottom:100px
+}
+.footinfo{
+    height:400px;
+    background-color:#f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    font-weight: 500;
+}
+ul h4{
+    padding-top: 75px;
+}
+ul a{
+    display:block;
+    font-size: 0.75rem;
+    margin-top: 10px;
+
+}
